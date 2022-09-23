@@ -1,0 +1,715 @@
+dhtml, body{
+    scroll-behavior: smooth;
+}
+.bg-dark {
+    background-color: #1d1d1dd2!important;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: rgb(170, 53, 54);
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background-color: rgb(170, 53, 54)!important;
+    border-color: rgb(170, 53, 54)!important;
+}
+
+.start {
+    z-index: 1;
+}
+
+.button-ver ul {
+    list-style: none;
+}
+
+.btn-ver {
+    width: 8rem;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+.comic {
+    background-color: dimgray;
+}
+
+.carousel-control-next {
+    background-color: black;
+}
+
+.carousel-control-prev {
+    background-color: black;
+}
+
+.ratio .ratio-16x9 {
+    float: left;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    
+    position: absolute;
+    bottom: 40vh;
+    z-index: 2;
+    color: white;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descripcion {
+    background-color: rgb(170, 53, 54);
+    padding: 50px 0px 50px 0px;
+}
+
+.tarjeta-nosotros {
+    text-align: center;
+    padding: 3px;
+}
+
+.sipnosis {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    background-color: dimgray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col-tex {
+    grid-column: 2/4;
+    padding: 0px 40px 0px 40px;
+}
+
+.col-tex h1 {
+    font-size: 120px;
+    text-align: center;
+    color: darkorange;
+    text-shadow: 7px 9px 5px rgba(206, 89, 55, 0.88);
+    margin-bottom: 40px;
+}
+
+.col-tex p {
+    color: white;
+}
+
+.col-zeus {
+    grid-column: 1/2;
+}
+
+.col-zeus img {
+    width: 100%;
+    padding: 0px 0px 0px 40px;
+}
+
+.row {
+    padding-right: 1rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row h1 {
+    text-align: center;
+}
+
+.personajes {
+    background-color: #5f0707;;
+    position: relative;
+}
+
+.amiibo {
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+
+.amiibo:hover {
+    transform: scale(1.20);
+}
+
+
+.ribbon-nosotros {
+    margin-top: 78vh;
+}
+
+#ribbon {
+    background-color: #f1c984;
+}
+
+#ribbon::after {
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 10px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+}
+
+#birthday {
+    background-color: #AA3536;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.8);
+}
+
+.style-text {
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-align: left;
+}
+
+.text-shadow-ribbon {
+    color: white;
+}
+
+.text-shadow {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 3px 3px rgb(0, 0, 0, 0.6);
+    padding: 50px;
+}
+
+.card-border {
+    background-color: #AA3536;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+    height: 600px;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+}
+
+.card-border-duvian {
+    background-color: #F5B447;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+    height: 600px;
+}
+
+.card-border-duvian:hover {
+    transform: scale(1.05);
+}
+
+#nosotros {
+    background: linear-gradient(0deg, #c56a6ccc 0%, #f1c984)
+}
+
+.card-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.card-text {
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.card-title-duvian {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.card-text-duvian {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+/*
+#separador-footer{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+#separador-footer .content{
+  background-color: #480F05;
+  width: 110%;
+  height: 110px;
+  margin-left: -5%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.btn-footer{
+  display: block;
+  background-color: #AA3536;
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.8);
+}
+
+.img-redes{
+  display: block;
+  width: 30px;
+}
+*/
+
+.img {
+    width: 100px;
+}
+
+footer {
+    background-color: #480F05;
+}
+
+.img {
+    width: 80px;
+}
+
+.img-redes {
+    display: block;
+    width: 30px;
+}
+
+.text-footer {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.372);
+}
+
+.slider {
+    background: #AA3536;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+/* Intento de informacion de personajes*/
+.infoPersonajes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #5f0707;
+}
+
+
+.cajaPersonajes{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    height: 300px;
+    background: #5f0707;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius:10px;
+    
+
+}
+/*parte de nosotros*/
+.columna{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: #AA3536;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius:10px;
+    
+
+}
+.columna2{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: #F5B447;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius:10px;
+}
+
+.characters{
+    top: 50%;
+    left: 50%;
+    width: 251px;
+    height: 251px;
+    z-index: 2;
+}
+
+.iconos{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    border-style: solid;
+    border-radius:10px;
+    border-width: 4px;
+    border-color: aliceblue;
+    
+}
+/*parte de nosotros*/
+.funkos{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    border-style: solid;
+    border-radius:10px;
+    border-width: 4px; 
+    border-color: #AA3536;
+}
+
+.funkos_duvian{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    border-style: solid;
+    border-radius:10px;
+    border-width: 4px; 
+    border-color: #F5B447;
+}
+
+.informacion{
+    position: absolute;
+    text-align: center;
+    height: calc(100% -10px);
+    padding: 20px;
+    box-sizing: border-box;
+    top:100px;
+    transition: 0.5s;
+}
+/*parte de nosotros*/
+.informacion_duvian{
+    position: absolute;
+    text-align: center;
+    height: calc(100% -10px);
+    padding: 20px;
+    box-sizing: border-box;
+    top:100px;
+    transition: 0.5s;
+}
+
+.desaparecer {
+    animation: 0.5 desaparece forwards;
+}
+@keyframes desaparece {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+.cssPersonajes {
+ animation: character 1s forwards;
+}
+
+@keyframes character {
+   100% {
+       transform: translateY(-100px);
+       width: 100px;
+       height: 100px;
+   }
+}
+.cssPersonajes {
+    animation: character 1s forwards;
+   }
+   
+   @keyframes character {
+      100% {
+          transform: translateY(-100px);
+          width: 100px;
+          height: 100px;
+      }
+   }
+.informacion h3{
+    color: rgb(255, 255, 255);
+}
+.informacion p{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 12px;
+}
+
+/*parte de nosotros*/
+.informacion_duvian h3{
+    color: rgb(0, 0, 0);
+}
+/*parte de nosotros*/
+.informacion_duvian p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 12px;
+}
+
+/*parte de nosotros*/
+.saraInfo {
+    /* background-color: #3f4bb5;*/
+     background: #AA3536;
+     z-index: 1;
+ }
+ /*parte de nosotros*/
+ .duvianInfo {
+    /* background-color: #3f4bb5;*/
+     background: #F5B447;
+     z-index: 1;
+ }
+ /*parte de nosotros*/
+ .lauraInfo {
+    /* background-color: #3f4bb5;*/
+     background: #AA3536;
+     z-index: 1;
+ }
+
+
+.caosInfo {
+   /* background-color: #3f4bb5;*/
+    background: #b53f3f;
+    z-index: 1;
+}
+.geaInfo {
+   /* background-color: #aadf6d; */
+    background: #b53f3f;
+    z-index: 1;
+}
+.uranoInfo {
+   /* background-color: lightblue; */
+    background: #b53f3f;
+    z-index: 1;
+}
+.titanesInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.hecaInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.ciclopesInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.cronosInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.reaInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.zeusInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.poseidonInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.hadesInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.heraInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.hestiaInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.demeterInfo {
+    background: #b53f3f;
+    z-index: 1;
+}
+.cssShow {
+    animation: show 0.5s forwards;
+    z-index: 1;
+}
+@keyframes show {
+    100%{
+      display: flex;
+      background-color: transparent;
+    }
+}
+@media only screen and (max-width: 2560px){
+    .sipnosis{
+        width: 68%;
+    }
+    .col-tex{
+        padding: 0px 58px 0px 40px;
+    }
+    .col-tex h1 {
+        left: 100px;
+    }
+    .container-img {
+        padding: 20px 0px 18px 0px;
+    }
+    .style-text p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sipnosis {
+        align-items: center;
+    }
+    .col-zeus img {
+        padding: 0px 0px 0px 70px;
+        text-align: center;
+    }
+    .col-tex {
+        grid-column: 1/2;
+        text-align: center;
+        padding: 0px 0px 0px 50px;
+    }
+    .col-tex h1 {
+        font-size: 80px;
+    }
+    .col-tex p {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .pl-5 {
+        padding-left: 2rem !important;
+    }
+    .personaje-name {
+        font-size: 15px !important;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .intro-text {
+        width: 30%;
+    }
+    .tarjeta-nosotros {
+        padding: 0px;
+    }
+    .card-border {
+        height: auto;
+    }
+    .card-border-duvian {
+        height: auto;
+    }
+    .style-text {
+        display: none;
+    }
+    .col-zeus img {
+        display: flex;
+        align-items: center;
+        padding: 1em;
+    }
+    .sipnosis {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0px 10px 0px;
+    }
+    .col-tex {
+        padding: 0px;
+        grid-column: 1/4;
+        padding: 1em;
+    }
+    .col-tex h1 {
+        font-size: 70px;
+        text-shadow: 4px 5px 4px rgb(206 89 55 / 88%);
+    }
+    .col-tex p {
+        text-align: justify;
+        font-size: 13px;
+    }
+    .infoPersonajes{
+        flex-direction: column;
+    }
+    .cajaPersonajes{
+        width: 90%;
+    }
+
+    .informacion{
+        position: absolute;
+        text-align: center;
+        height: calc(100% -10px);
+        padding: 55px;
+        top: 50px;
+        transition: 0.5s;
+    }
+}
+@media only screen and  (max-width: 320px ){
+    .infoPersonajes{
+        flex-direction: column;
+    }
+    .cajaPersonajes{
+        width: 90%;
+        overflow: visible;
+    }
+    .text-shadow-ribbon {
+        font-size: 22px;
+    }
+    
+    .col-tex h1 {
+        font-size: 54px;
+        text-shadow: 4px 5px 4px rgb(206 89 55 / 88%);
+    }
+}
+
+
+#portadas{
+    background-color: #F5B447;
+}
+
+.portada{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 519px;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius:10px;
+}
+.boton{
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius:10px;
+}
+
+
+
